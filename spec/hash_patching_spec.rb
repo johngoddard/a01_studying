@@ -1,6 +1,6 @@
 require 'rspec'
-# require_relative '../lib/hash_patching'
-require_relative '../solutions/hash_patching'
+require_relative '../lib/hash_patching'
+# require_relative '../solutions/hash_patching'
 
 describe "my_each" do
   a = {"a"=> 1, "b" => 2, "c" => 3}
